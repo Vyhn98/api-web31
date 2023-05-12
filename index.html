@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMaster</title>
+
+    <!-- Import css bootstrap -->
+    <link rel="stylesheet" href="lib/bootstrap-5.3.0-alpha3-dist/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <!-- Import style main -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Import icon -->
+    <link rel="stylesheet" href="./lib/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <div class="wrap-banner">
+            <div class="banner-full">
+
+            </div>
+
+            <!-- Full-width images with number text -->
+            <div class="slides">
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="./assets/image/banner/IOS.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="./assets/image/banner/php.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="./assets/image/banner/flutter.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext"></div>
+                    <img src="./assets/image/banner/STEM.jpg" style="width:100%">
+                </div>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <div class="thumnail">
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="./assets/image/banner/IOS.jpg" style="width:100%"
+                            onclick="currentSlide(1)" alt="Lộ trình IOS Application 5 tháng">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./assets/image/banner/php.jpg" style="width:100%"
+                            onclick="currentSlide(2)" alt="Lộ trình PHP Fullstack 7 tháng">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./assets/image/banner/flutter.jpg" style="width:100%"
+                            onclick="currentSlide(3)" alt="Lộ trình Flutter 5 tháng">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="./assets/image/banner/STEM.jpg" style="width:100%"
+                            onclick="currentSlide(4)" alt="Lộ trình Flutter 5 tháng">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Banner Mobile -->
+    <div class="banner-mobile">
+        <div class="img-mobile"></div>
+        <img src="./assets/image/IOS.jpg" style="width:100%">
+    </div>
+
+    <!-- Content Menu Mobile -->
+    <div class="content-mobile">
+        <div class="content-mobile-list">
+            <a href="#khoaHoc">Khóa Học</a>
+            <a href="#loTrinh">Lộ Trình</a>
+            <a href="#khaiGiang">Khai Giảng</a>
+            <a href="#blog">Blog</a>
+            <a href="#gioiThieu">Giới Thiệu</a>
+        </div>
+    </div>
+
+
+    <div class="smooth-scroll">
+        <div class="container">
+            <div class="wrap-scroll">
+                <div class="scroll-btn">
+                    <ul>
+                        <li>
+                            <button>
+                                <a class="nav-link" href="#section1">
+                                    Bạn đang ở level nào?
+                                </a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a class="nav-link" href="#section2">
+                                    Có những khóa học nào?
+                                </a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a class="nav-link" href="#section3">
+                                    Nên bắt đầu từ đâu?
+                                </a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a class="nav-link" href="#section4">
+                                    Khi nào có thể bắt đầu?
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="object">
+        <h2>Khóa học dành cho những ai?</h2>
+        <div class="container">
+            <div id="section1" style="padding:20px 20px;">
+                <div class="wrap-object">
+                    <div class="newbie">
+                        <div class="image-object">
+                            <img src="./assets/image/object/newbie.png" alt="newbie">
+                        </div>
+                        <div class="text-object">
+                            <h4>Người mời bắt đầu</h4>
+                            <p>
+                                Bạn là người mới, chưa có nền tảng nhưng muốn trở thành một coder
+                                Hay chỉ đơn giản bạn có niềm yêu thích công nghệ và muốn nghiêm túc với nghề này
+                            </p>
+                        </div>
+                    </div>
+                    <div class="its-students">
+                        <div class="image-object">
+                            <img src="./assets/image/object/it student.png" alt="newbie">
+                        </div>
+                        <div class="text-object">
+                            <h4>Sinh viên công nghệ thông tin</h4>
+                            <p>
+                                Bạn là sinh viên đang theo học ngành lập trình muốn bổ sung thêm kiến thức chuyên ngành
+                                hoặc nâng cao kỹ năng bản thân để tự tin hơn khi bước vào nghề
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coder">
+                        <div class="image-object">
+                            <img src="./assets/image/object/coder.png" alt="newbie">
+                        </div>
+                        <div class="text-object">
+                            <h4>Lập trình viên</h4>
+                            <p>
+                                Bạn đang là lập trình viên đã đi làm, muốn bổ sung thêm kiến thức ngôn ngữ mới, nâng cao
+                                kỹ năng bản thân bắt kịp xu hướng
+                            </p>
+                        </div>
+                    </div>
+                    <div class="student">
+                        <div class="image-object">
+                            <img src="./assets/image/object/student.png" alt="newbie">
+                        </div>
+                        <div class="text-object">
+                            <h4>Học sinh</h4>
+                            <p>
+                                Bạn vẫn còn đang là học sinh nhưng có đam mê với ngành công nghẹ thông tin
+                                Bạn muốn con mình tiếp cận sớm với nghề đang HOT này
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course">
+        <h2>Techmaster có những khóa học nào?</h2>
+        <div class="container">
+            <div id="section2" style="padding:20px 20px;">
+                <div class="wrap-course">
+                    <div class="course-hot">
+                        <h5>Những khóa học HOT</h5>
+                        <div class="course-hot-list">
+                            <div class="fullStack">
+                                <img src="./assets/image/crouse/fullstack.png" alt="fullstack">
+                                <p>Lập trình web fullstack</p>
+                            </div>
+                            <div class="frontend">
+                                <img src="./assets/image/crouse/frontend.png" alt="frontend">
+                                <p>Lập trình web FRONTEND</p>
+                            </div>
+                            <div class="backend">
+                                <img src="./assets/image/crouse/backend.png" alt="backend">
+                                <p>Lập trình web BACKEND</p>
+                            </div>
+                            <div class="mobile">
+                                <img src="./assets/image/crouse/mobile.png" alt="mobile">
+                                <p>Lập trình web fullstack</p>
+                            </div>
+                        </div>
+                        <h6>
+                            <a href="">Xem thêm</a>
+                        </h6>
+                    </div>
+
+                    <div class="frontend">
+                        <h5>WEB FRONT END</h5>
+                        <div class="frontend-list">
+                            <div class="frontend-co-ban">
+                                <img src="./assets/image/crouse/frontend-co-ban.png" alt="frontend-co-ban">
+                                <p>FRONTEND cơ bản</p>
+                            </div>
+                            <div class="frontend-nang-cao">
+                                <img src="./assets/image/crouse/frontend-nang-cao.png" alt="frontend-nang-cao">
+                                <p>FRONTEND nâng cao</p>
+                            </div>
+                            <div class="react-co-ban">
+                                <img src="./assets/image/crouse/react-co-ban.png" alt="react-co-ban">
+                                <p>React cơ bản</p>
+                            </div>
+                            <div class="react-nang-cao">
+                                <img src="./assets/image/crouse/react-nang-cao.png" alt="react-nang-cao">
+                                <p>React nâng cao</p>
+                            </div>
+                        </div>
+                        <h6>
+                            <a href="">Xem thêm</a>
+                        </h6>
+                    </div>
+
+                    <div class="backend">
+                        <h5>WEB BACK END</h5>
+                        <div class="backend-list">
+                            <div class="java">
+                                <img src="./assets/image/crouse/java.png" alt="java">
+                                <p>Lập trình Java</p>
+                            </div>
+                            <div class="python">
+                                <img src="./assets/image/crouse/python.png" alt="python">
+                                <p>Lập trình Python</p>
+                            </div>
+                            <div class="php">
+                                <img src="./assets/image/crouse/php.png" alt="php">
+                                <p>Lập trình PHP</p>
+                            </div>
+                            <div class="c++">
+                                <img src="./assets/image/crouse/c++.png" alt="c++">
+                                <p>Lâp trình .Net</p>
+                            </div>
+                        </div>
+                        <h6>
+                            <a href="">Xem thêm</a>
+                        </h6>
+                    </div>
+
+                    <div class="mobile">
+                        <h5>Mobile</h5>
+                        <div class="mobile-list">
+                            <div class="ios">
+                                <img src="./assets/image/crouse/ios.png" alt="ios">
+                                <p>Lập trình web fullstack</p>
+                            </div>
+                            <div class="android">
+                                <img src="./assets/image/crouse/android.png" alt="android">
+                                <p>Android</p>
+                            </div>
+                        </div>
+                        <h6>
+                            <a href="">Xem thêm</a>
+                        </h6>
+                    </div>
+                    <div class="see-all-btn">
+                        <button>
+                            <a href="">Xem tất cả</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lộ trình -->
+    <div class="route">
+        <h2>Lộ trình học tại TechMaster</h2>
+        <div class="container">
+            <div id="section3" style="padding:20px 20px;">
+                <div class="wrap-route">
+                    <div class="frontend-route">
+                        <div class="text">
+                            <h4>Lộ trình học FRONTEND</h4>
+                            <p>
+                                Lập trình viên Front-end là người xây dựng ra giao diện websites. Trong phần này
+                                Techmaster sẽ chia sẻ cho bạn lộ trình để trở thành lập trình viên Front-end nhé.
+                            </p>
+                        </div>
+                        <div class="image-route">
+                            <img src="./assets/image/route/frontend.png" alt="frontend-route">
+                        </div>
+                    </div>
+                    <div class="backend-route">
+                        <div class="text">
+                            <h4>Lộ trình học BACKEND</h4>
+                            <p>
+                                Trái với Front-end thì lập trình viên Back-end là người làm việc với dữ liệu, công việc
+                                thường nặng tính logic hơn. Chúng ta sẽ cùng tìm hiểu thêm về lộ trình học Back-end nhé.
+                            </p>
+                        </div>
+                        <div class="image-route">
+                            <img src="./assets/image/route/backend.png" alt="backend-route">
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-btn">
+                    <button>
+                        <a href="">Xem tất cả</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lịch khai giảng -->
+    <div class="opening-schedule">
+        <h2>Lịch khai giảng</h2>
+        <div class="container">
+            <div id="section4" style="padding:20px 20px;">
+                <div class="wrap-opening">
+                    <div class="frontend-class">
+                        <div class="text">
+                            <h4>Lớp FRONTEND cơ bản</h4>
+                            <ul>
+                                <li class="ti-calendar"> Thứ 2, 4, 6</li>
+                                <li class="ti-timer"> 18:30 - 21:30</li>
+                                <li class="ti-map-alt"> Cơ sở Tố Hữu</li>
+                                <li class="ti-money"> 20,000,000 VNĐ</li>
+                            </ul>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/image/opening/frontend-class.png" alt="frontend-class">
+                        </div>
+                    </div>
+                    <div class="backend-class">
+                        <div class="text">
+                            <h4>Lớp BACKTEND cơ bản</h4>
+                            <ul>
+                                <li class="ti-calendar"> Thứ 3, 5, 7</li>
+                                <li class="ti-timer"> 18:30 - 21:30</li>
+                                <li class="ti-map-alt"> Cơ sở Dịch Vọng Hậu</li>
+                                <li class="ti-money"> 20,000,000 VNĐ</li>
+                            </ul>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/image/opening/backend-class.png" alt="backend-class">
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-btn">
+                    <button>
+                        <a href="">Xem tất cả</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Đối tác -->
+    <div class="partner">
+        <h2>Đối tác</h2>
+        <div class="partner-list">
+            <div class="flex-partner">
+                <img src="./assets/image/partner/brother.png" alt="brother">
+            </div class="flex-partner">
+            <div class="flex-partner">
+                <img src="./assets/image/partner/biplus.png" alt="biplus">
+            </div>
+            <div class="flex-partner">
+                <img src="./assets/image/partner/paditech.png" alt="paditech">
+            </div class="flex-partner">
+            <div class="flex-partner">
+                <img src="./assets/image/partner/smart-osc.jpg" alt="smart-osc">
+            </div>
+            <div class="flex-partner">
+                <img src="./assets/image/partner/open-commerce.jpg" alt="open-commerce">
+            </div>
+            <div class="flex-partner">
+                <img src="./assets/image/partner/samsung-display.jpg" alt="samsung-display">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="owner" style="width:100%">
+                <h4>Chủ sở hữu WEBSITE</h4>
+                <ul>
+                    <li>Công ty TNHH Techmaster</li>
+                    <li>Vietnam Ltd</li>
+                    <li>Số ĐKDN: 0105392153</li>
+                    <li>Ngày Cấp: 4-7-2011</li>
+                    <li>Nơi cấp: Sở kế hoạch - Đầu tư Hà Nội</li>
+                    <li>Người đại diện: Trình Minh Cường</li>
+                </ul>
+            </div>
+            <div class="introduce" style="width:100%">
+                <h4>Giới thiệu</h4>
+                <ul>
+                    <li>Học viện CNTT TechMaster</li>
+                    <li>Giảng viên</li>
+                    <li>Quy định</li>
+                    <li>Hướng dẫn mua khóa học</li>
+                    <li>Ưu đãi và hoàn học phí</li>
+                    <li>Bảo vệ thông tin khách hàng</li>
+                </ul>
+            </div>
+            <div class="counselors" style="width:100%">
+                <h4>Tư vấn tuyển sinh</h4>
+                <ul>
+                    <li>Dương Đức Thịnh - 0987273764 - thinh@techmaster.vn</li>
+                    <li>Phạm Thị Mẫn - 0963023185 - phamman@techmaster.vn</li>
+                    <li>Nguyễn Thanh Hương - 0382416368 - huong@techmaster.vn</li>
+                </ul>
+            </div>
+            <div class="address" style="width:100%">
+                <h4>Địa chỉ</h4>
+                <ul>
+                    <li>Quận Hai Bà Trưng: 14 ngõ 4 Nguyễn Đình Chiểu</li>
+                    <li>Quận Nam Từ Liêm: tầng 12A, Viwaseen Tower, 48 Tố Hữu </li>
+                    <li>Quận Cầu Giấy: tầng 5, 13 Dịch Vọng Hậu</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header-main -->
+    <div class="header-main">
+        <div class="container">
+            <div class="wrap-header">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="./assets/image/logo/tech logo.png" alt="logo">
+                    </a>
+
+                </div>
+
+                <div class="menu-main">
+                    <!-- Menu desktop -->
+                    <ul>
+                        <a href="#khoaHoc">Khóa Học</a>
+                        <a href="#loTrinh">Lộ Trình</a>
+                        <a href="#khaiGiang">Khai Giảng</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#gioiThieu">Giới Thiệu</a>
+                    </ul>
+
+                    <!-- Menu Mobile -->
+                    <div class="menu-mobile">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                </div>
+
+                <!-- Login Btn -->
+                <div class="login-btn">
+                    <button>Login</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Import axios -->
+    <script src="./lib/axios.min.js"></script>
+    <!-- Import js bootstrap -->
+    <link rel="stylesheet"
+        href="lib/bootstrap-5.3.0-alpha3-dist/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js">
+    <!-- Import listing.js -->
+    <script src="./assets/js/listing.js"></script>
+    <!-- Import js menu mobile -->
+    <script src="./assets/js/menu-mobile.js"></script>
+    <!-- Import js banner -->
+    <script src="./assets/js/banner.js"></script>
+
+</body>
+
+</html>
