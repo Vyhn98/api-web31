@@ -363,7 +363,6 @@ h6 {
 
 h6 a {
     color: #E73C80;
-    ;
     font-weight: bold;
 }
 
@@ -667,114 +666,63 @@ p {
 .main-content {
     margin-top: 100px;
 }
-.aws {
-    display: flex;
-}
-.aws img {
-    margin: 20px 20px 20px 20px;
-    height: 190px;
-    width: 300px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.aws-co-ban {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-
-}
-.aws-co-ban li {
-    list-style: none;
-}
-.aws-nang-cao {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.aws-nang-cao li {
-    list-style: none;
-}
-.devops {
-    display: flex;
-}
-.devops img {
+.course-box img {
     max-width: 100%;
     border-radius: 15px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.devops-co-ban .image {
+.course-box li {
+    list-style: none;
+}
+.course-box .image {
     padding: 15px;
 }
-.devops-co-ban {
+.course-box {
     background-color: #FBF1E5;
     border: 1px solid #D9D9D9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
-    max-width: 30%;
+    max-width: 100%;
     height: 100%;
+    margin-right: 20px;
 }
-.devops-co-ban li {
-    list-style: none;
+
+.aws {
+    display: flex;
+    max-width: 50%;
 }
-.devops-nang-cao {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    margin-left: 20px;
+
+.devops {
+    display: flex;
+    max-width: 50%;
 }
-.devops-nang-cao li {
-    list-style: none;
-}
+
 .lap-trinh {
     display: flex;
+    padding-bottom: 15px;
+    max-width: 100%;
 }
-.lap-trinh img {
-    margin: 20px 20px 20px 20px;
-    height: 190px;
-    width: 300px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.lap-trinh-web {
+    display: flex;
+    padding-bottom: 15px;
+    max-width: 75%;
 }
-.java-co-ban {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
+
+.python {
+    display: flex;
+    padding-bottom: 15px;
+    max-width: 50%;
 }
-.java-co-ban li {
-    list-style: none;
+
+.stem {
+    display: flex;
+    padding-bottom: 15px;
+    max-width: 25%;
 }
-.java-nang-cao {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.java-nang-cao li {
-    list-style: none;
-}
-.lap-trinh-php {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.lap-trinh-php li {
-    list-style: none;
-}
-.lap-trinh-c {
-    background-color: #FBF1E5;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 20px;
-    margin-left: 20px;
-}
-.lap-trinh-c++ li {
-    list-style: none;
+
+.thieu-nhi {
+    display: flex;
+    padding-bottom: 15px;
+    max-width: 50%;
 }
