@@ -1,6 +1,6 @@
 /* menu-main */
 .header-main {
-    background-color: #f3ebe0;
+    background-color: #F9F6F3;
     position: fixed;
     top: -50px;
     width: 100%;
@@ -95,7 +95,6 @@ button {
 button:hover {
     opacity: 0.8;
 }
-
 
 /* Banner */
 .banner {
@@ -498,18 +497,20 @@ p {
 .frontend-class ul {
     list-style: none;
     margin-top: 20px;
+    padding-left: 10px;
+    font-size: 14px;
 }
 
 .frontend-class li {
-    height: 20%;
-    padding: 4px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .frontend-class img {
-    width: 14    0px;
+    width: 100%;
     height: 130px;
     float: right;
+    padding-left: 30px;
 }
 
 .backend-class {
@@ -529,24 +530,27 @@ p {
 .backend-class ul {
     list-style: none;
     margin-top: 20px;
+    padding-left: 10px;
+    font-size: 14px;
 }
 
 .backend-class li {
-    height: 20%;
-    padding: 4px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .backend-class img {
     width: 140px;
     height: 120px;
     float: right;
+    padding-left: 30px;
 }
 
 /* Partner */
 .partner h2 {
     text-align: center;
 }
+
 .partner-list {
     display: flex;
     padding: 10px;
@@ -585,14 +589,16 @@ p {
 }
 
 /* Footer */
-.footer ul{
+.footer ul {
     list-style: none;
     font-weight: bold;
     font-size: 14px;
 }
+
 .footer {
     background-color: #F9F6F3;
 }
+
 .footer .container {
     display: flex;
     padding: 20px;
@@ -651,4 +657,124 @@ p {
     .banner {}
 
     .banner-mobile {}
+}
+
+/* Coure-page */
+/* margin */
+.margin {
+    width: 100%;
+}
+.main-content {
+    margin-top: 100px;
+}
+.aws {
+    display: flex;
+}
+.aws img {
+    margin: 20px 20px 20px 20px;
+    height: 190px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aws-co-ban {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+}
+.aws-co-ban li {
+    list-style: none;
+}
+.aws-nang-cao {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.aws-nang-cao li {
+    list-style: none;
+}
+.devops {
+    display: flex;
+}
+.devops img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.devops-co-ban .image {
+    padding: 15px;
+}
+.devops-co-ban {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    max-width: 30%;
+    height: 100%;
+}
+.devops-co-ban li {
+    list-style: none;
+}
+.devops-nang-cao {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.devops-nang-cao li {
+    list-style: none;
+}
+.lap-trinh {
+    display: flex;
+}
+.lap-trinh img {
+    margin: 20px 20px 20px 20px;
+    height: 190px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.java-co-ban {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+.java-co-ban li {
+    list-style: none;
+}
+.java-nang-cao {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.java-nang-cao li {
+    list-style: none;
+}
+.lap-trinh-php {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.lap-trinh-php li {
+    list-style: none;
+}
+.lap-trinh-c {
+    background-color: #FBF1E5;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.lap-trinh-c++ li {
+    list-style: none;
 }
